@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcfbfb;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('wolk.jpg');
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    padding: 3rem 0;
+}
+
+.nav-button {
+    display: inline-block;
+    background: #555;
+    color: white;
+    padding: 8px 16px;
+    margin: 8px 4px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s;
+    border: none;
+}
+
+.nav-button:hover {
+    background: #777;
+    color: white;
+}
+
+.banner {
+    text-align: center;
+    color: rgb(133, 132, 132);
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+    margin-bottom: 2rem;
+}
+
+.products {
+    padding: 1rem 0;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product-card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    width: 220px;
+    margin: 0 10px 20px;
+    transition: transform 0.3s;
+}
+
+.product-img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+.product-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+    background: #555;
+    color: white;
+    border-radius: 0 0 5px 5px;
+    transition: background 0.3s;
+    font-size: 14px;
+}
+
+.product-link:hover {
+    background: #777;
+    color: white;
+}
+
+.product-info {
+    padding: 12px;
+}
+
+.product-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+    padding: 10px;
+    border-radius: 6px;
+}
+.btn-primary {
+    background-color: #333;
+    border-color: #333;
+    transition: all 0.3s;
+}
+.btn-primary:hover {
+    background-color: #555;
+    border-color: #555;
+}
+a {
+    color: #333;
+    font-weight: 500;
+}
+a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+.contact-hero {
+    background-image: url('wolk.jpg');
+}
+
+.contact-card {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+    font-size: 2rem;
+    color: #333;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+.btn-wolf {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.btn-wolf:hover {
+    background-color: #555;
+    color: white;
+}
